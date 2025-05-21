@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">BCE7th</string>
+    <string name="hello">Hello World!</string>
+    <string name="first_text">This is my application</string>
+    <string name="second_text">This is subtitle</string>
+
+    <string-array name="country">
+        <item>--Select Country--</item>
+        <item>Nepal</item>
+        <item>India</item>
+        <item>China</item>
+    </string-array>
+
+
+    <!-- Drawer Toggle -->
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
