@@ -1,8 +1,14 @@
 <resources>
-    <string name="app_name">BCE7th</string>
+    <string name="app_name">बि सी इ ७ औं</string>
     <string name="hello">Hello World!</string>
     <string name="first_text">This is my application</string>
     <string name="second_text">This is subtitle</string>
+    <string name="welcometext">"Welcome to Home page"</string>
+    <string name="langEng">English</string>
+    <string name="LangNep">Nepali</string>
+    <string name="regtext">Registration Form</string>
+
+
 
     <string-array name="country">
         <item>--Select Country--</item>

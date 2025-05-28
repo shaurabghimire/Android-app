@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">BCE7th</string>
+    <string name="hello">नमस्ते संसार!</string>
+    <string name="first_text">यो मेरो आवेदन हो</string>
+    <string name="second_text">यो उपशीर्षक हो</string>
+    <string name="welcometext">"गृहपृष्ठमा स्वागत छ"</string>
+    <string name="langEng">अंग्रेजी</string>
+    <string name="LangNep">नेपाली</string>
+    <string name="regtext">दर्ता फारम</string>
+
+    <string-array name="country">
+        <item>--देश चयन गर्नुहोस्--</item>
+        <item>नेपाल</item>
+        <item>भारत</item>
+        <item>चीन</item>
+    </string-array>
+
+
+    <!-- Drawer Toggle -->
+    <string name="drawer_open">खोल्नुहोस्</string>
+    <string name="drawer_close">बन्द गर्नुहोस्</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">नमस्ते खाली टुक्रा</string>
+
+
+</resources>

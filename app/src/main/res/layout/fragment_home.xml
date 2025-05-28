@@ -14,7 +14,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome to Home!"
+        android:text="@string/welcometext"
         android:layout_marginBottom="16dp"
         android:gravity="center"
         android:textSize="24sp"/>
@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Registration Form" />
+        android:text="@string/regtext" />
 
     </LinearLayout>
 </FrameLayout>
