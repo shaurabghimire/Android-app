@@ -10,12 +10,9 @@ import android.widget.RadioButton
 import android.widget.RadioGroup
 import android.widget.Spinner
 import android.widget.TextView
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
-import androidx.core.content.ContextCompat
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import com.mobile.bce.database.MyDatabaseHelper
 
 class FormActivity : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
@@ -62,19 +59,18 @@ class FormActivity : AppCompatActivity() {
             val acceptedTerms = terms.isChecked.toString()
 
 
-//            txtResultName.setText("Name:  "+ nameData + ", Country: "+countryText)
-//            txtResultAddress.setText("Address:  "+ addressData + ", Gender: "+genderText)
-//            txtResultEmail.setText("Email:  "+ emailData+ ", Terms: "+acceptedTerms)
 
-            val intent = Intent(this, ReasultActivity::class.java).apply {
-                putExtra("name", nameData)
-                putExtra("address", addressData)
-                putExtra("email", emailData)
-                putExtra("gender", genderText)
-                putExtra("country", countryText)
-                putExtra("terms", acceptedTerms)
-            }
+            val dbhelpar = MyDatabaseHelper(this)
+            dbhelpar.insertUserData(
+                name = nameData,
+                address= addressData,
+                email = emailData,
+                gender = genderText,
+                country= countryText,
+                terms = acceptedTerms
+            )
 
+            val intent = Intent(this,ResultActivity::class.java)
             startActivity(intent)
 
 
