@@ -16,7 +16,7 @@
             android:name=".Person"
             android:exported="false" />
         <activity
-            android:name=".ReasultActivity"
+            android:name=".ResultActivity"
             android:exported="false" />
         <activity
             android:name=".FormActivity"
